@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cars</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="Cars.css">
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 	 <script type="text/javascript" src="Cars.js"></script>
+</head>
+<body>
+
+
+
+<div class="container-fluid">
+	<div id = "bg_img" >
+		<p id="welcome_header" ><span><b>Welcome to Car Traders</b></span></p>
+	</div>
+	<div align="center" id="filter">
+		<select class="btn btn-info" id="year" title="Year" >
+  		<option selected="selected" disabled="disabled" class="hideoption">Year</option>
+  		<option value="" >no filter</option>
+  		<option value="2012">2012</option>
+  		<option value="2014">2014</option>
+  		<option value="2015">2015</option>
+  		<option value="2016">2016</option>
+		</select>
+
+		<select class="btn btn-info" id="price" title="Price" >
+  		<option selected="selected" disabled="disabled" class="hideoption">Price</option>
+  		<option value="">no filter</option>
+  		<option value="2 Lakhs">2 Lakhs</option>
+  		<option value="4 Lakhs">4 Lakhs</option>
+  		<option value="5 Lakhs">5 Lakhs</option>
+  		<option value="6 Lakhs">6 Lakhs</option>
+		</select>
+
+		<select class="btn btn-info" id="manufacture">
+ 		  <option selected="selected" disabled="disabled" class="hideoption" >Manufacture</option>
+ 	    <option value="">no filter</option>
+ 	    <option value="HONDA">Honda</option>
+ 	    <option value="MARUTI">Maruti</option>
+  		<option value="SUZUKI">Suzuki</option>
+		</select>
+	</div>
+	<div id="holder">
+	</div>
+	
+	</div>
+
+</body>
+</html> 

@@ -1,0 +1,59 @@
+
+  .hideoption { 
+  	display:none; 
+  	visibility:hidden; 
+  	height:0; 
+  	font-size:0; 
+  }
+
+  .btn{
+  	width:150px;
+  	margin:5px;
+  }
+
+  #filter{
+  	margin-top: 15px;
+  }
+
+  .w3-container{
+    padding: 1em 12px;
+    padding-left: 21px;
+  }
+
+  .footer{
+  	cell-padding:5%
+  }
+  .card{
+  	padding:2%; 
+  	margin-bottom: 2%;
+  }
+  #card_price{
+  	float:left; 
+  	font-size:  large;
+  }
+  #card_year{
+  	float:right; 
+  	font-size:  large;
+  }
+  #bg_img{
+  	background-image: url('cars/images.jpg'); 
+  	height: 200px;
+  	width: auto; 
+  	border: 1px solid black; 
+  	background-size:cover;
+  }
+  #welcome_header{
+  	margin-top: 5%;
+  	background-color : #990000;
+  	text-align:center;
+  }
+  img{
+      height:250px
+  }
+
+  @media only screen and (max-width: 700px) {
+      img{
+
+          height:100px;
+      }
+  }
